@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Superman</title>
+
+	</head>
+	
+	
+		<button class="myButton">Hero Says</button>
+
+		
+		
+		<h1>Superman</h1>
+	<body>
+		<a href="https://en.wikipedia.org/wiki/Superman">Superman</a>
+		
+		<a href="villain.html">Lex Luther</a>
+		
+		<a class="clickMe" href="#">Lex Luther</a>
+	</body>
+
+	<img src="http://images.com/page.png"></img>
+
+	<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	
+
+
+
+	
+	
+	
+	
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	
+	<script>
+	
+	
+	
+	$(".clickMe").click(function(){
+		
+		$("body").css("background-color", "gold");
+		
+		$("h1").css("border", "dashed 2px red");
+		
+		$("body").css("font-size", "100");
+	});
+	
+	
+	$(".myButton").click(function () {
+		$("body").css("background-color", "green");
+	});
+</script>
+
+</html>
